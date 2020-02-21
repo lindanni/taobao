@@ -1,0 +1,136 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-size:12px;
+	color:#6c6c6c;
+}
+
+.page .header{
+	width:1200px;
+	height:43px;
+	padding:35px 0 35px 0;
+	margin:0 auto;
+}
+.page .header .logo{
+	background:url("../images/zhuce.png") no-repeat;
+	background-size:100% 100%;
+	width:203px;
+	height:43px;
+}
+.page .content{
+	padding:50px 0;
+	width:1200px;
+	margin:0 auto;
+	border-top:2px solid #e6e6e6;
+}
+.page .content form{
+	width:720px;
+	margin:0 auto;
+}
+.page .content form div{
+	padding:20px 0px;
+	width:650px;
+	/*border:1px solid black;*/
+	margin:0 auto;	
+}
+.page .content form div label{
+	display:block;
+	float:left;
+	margin-right:20px;
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	width:70px;
+	font-size:14px;
+	font-size:#3c3c3c;
+}
+.page .content form div input{
+	height:30px;
+	line-height:30px;
+	outline:0;
+	border:1px solid #ccc;
+	font-size:13px;
+	width:250px;
+	float:left;
+}
+.page .content form div span{
+	height:30px;
+	line-height:30px;
+	font-size:13px;
+	width:250px;
+	float:left;
+	color:#f40;
+	margin-left:20px;
+	display:none;
+}
+.page .content form div.msg span{
+	font-weight:700;
+	font-size:16px;
+	display:none;
+	margin-left:90px;
+}
+.page .content form div:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.page .content form div button{
+	width:150px;
+	height:30px;
+	line-height:30px;
+	font-size:13px;
+	background:#f40;
+	color:#fff;
+	text-align:center;
+	border:0;
+	margin-left:90px;
+	cursor:pointer;
+}
+.bottom{
+	width:1200px;
+	padding:7px 0 9px;
+	margin:60px auto 0;
+	border-top:1px solid #ddd;
+}
+.bottom .bottom_hd p{
+	line-height:27px;
+	margin-bottom:8px;
+	border-bottom:1px solid #ddd;
+	padding-bottom:8px;
+}
+.bottom .bottom_hd p a{
+	display:inline;
+	margin:0 4px;
+	color:#6c6c6c;
+}
+.bottom .bottom_hd p b{
+	margin:0 3px;
+	display:inline;
+	color:#ddd;
+}
+.bottom .bottom_bd p{
+	padding-bottom:8px;
+}
+.bottom .bottom_bd p a{
+	margin:0 4px;
+	display:inline;
+}
+.bottom .bottom_bd p em{
+	margin-left:30px;
+	display:inline;
+	color:#9c9c9c;
+	font-style:normal;
+	font-weight:400;
+}
+.bottom .bottom_bd p span{
+	color:#9c9c9c;
+	margin:0 4px;
+}
+.bottom .bottom_bd p:nth-child(2) b{
+	color:#ddd;
+	font-weight:400;
+	display:inline;
+	margin:0 3px;
+}

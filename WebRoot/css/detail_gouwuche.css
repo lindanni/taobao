@@ -1,0 +1,259 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	outline:none;
+	list-style:none;
+}
+.content{
+	width:990px;
+	margin:0 auto;
+}
+.content .c_header{
+	width:990px;
+	height:35px;
+	padding:20px 0 40px 0;
+}
+.content .c_header .logo{
+	float:left;
+	width:181px;
+	height:45px;	
+}
+.content .c_header .logo .img{
+	width:181px;
+	height:45px;
+	background:url("../detail_gouwuche/logo_gouwuche.png") no-repeat;
+	background-size:100% 100%;
+}
+.content .c_header .fix_search{
+	width:515px;
+	height:35px;
+	float:right;
+}
+.fix_search{
+	width:100%;
+	height:35px;
+}
+.fix_search .search_h .search_border{
+	width:515px;
+	height:35px;
+}
+.fix_search .search_h .search_border .search-input .search_ul{
+	float:left;
+	position:relative;
+	z-index:10;
+}
+.fix_search .search_h .search_border .search-input .search_ul li{
+	width:78px;
+	height:29px;
+	background:#f4f4f4;
+	color:#3c3c3c;
+	line-height:30px;
+	text-align:center;
+	font-size:13px;
+	border-right:1px solid #e5e5e5;
+	border-left:1px solid #f5f5f5;
+}
+.fix_search .search_h .search_border .search-input .search_ul li:nth-child(2){
+	margin-top:3px;
+}
+.fix_search .search_h .search_border .search-input .search_ul li:nth-child(2),
+.fix_search .search_h .search_border .search-input .search_ul li:nth-child(3){
+	background:#fff;
+	border-left:1px solid #e5e5e5;
+	display:none;
+	border-bottom:1px solid #e5e5e5;
+}
+.fix_search .search_h .search_border .search-input .search_ul li:nth-child(2):hover,
+.fix_search .search_h .search_border .search-input .search_ul li:nth-child(3):hover{
+	background:#f5f5f5;
+}
+
+.search-panel{
+	position:relative;
+}
+.search-panel .search-button{
+	position:absolute;
+	right:0;
+	top:0;
+	width:74px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	overflow:hidden;
+}
+.search-panel .search-button button{
+	font-size:18px;
+	font-weight:700;
+	color:#fff;
+	background:#f50;
+	background-repeat:repeat-x;
+	cursor:pointer;
+	width:100%;
+	height:100%;
+	border:none;
+}
+.search-panel .search-input .fangdajing{
+	background:url("../images/fangdajing.png") no-repeat;
+	display:inline-block;
+	width:15px;
+	height:15px;
+	margin-top:8px;
+	margin-left:10px;
+	background-size:96% 96%;
+
+}
+.search-panel .search-input{
+	position:relative;
+	margin-right:74px;
+	border:3px solid #f50;
+	height:29px;
+	border-right:none;
+}
+.search-panel .search-input .zhaoxiangji{
+	background:url("../images/zhaoxiangji.png") no-repeat;
+	width:35px;
+	height:25px;
+	display:inline-block;
+	background-size:93% 93%;
+	position:absolute;
+	right:7px;
+	top:4px;
+}
+.search-panel .search-input input{
+	width:300px;
+	height:24px;
+	border:none;
+	text-indent:10px;
+}
+.goods_detail{
+	position:relative;
+}
+.goods_detail .img_wrap{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 198px;
+	height: 198px;
+	overflow: hidden;
+	border: 1px solid #eee;
+	cursor:pointer;
+	z-index:6;
+}
+.goods_detail .img_wrap img{
+	vertical-align: middle;
+	width: 200px;
+  height: 200px;
+}
+.goods_detail .img_wrap .goods_title_wrap{
+	right:0;
+	bottom:0;
+	position:absolute;
+	height: 28px;
+	line-height:28px;
+	width:178px;
+	background:rgba(0,0,0,0.7);
+	padding:0 10px;
+}
+.goods_detail .img_wrap .goods_title{
+	font-size:13px;
+	color:#fff;
+}
+.goods_detail .detail{
+	float: left;
+	position: relative;
+	padding: 0 0 0 210px;
+	min-height: 200px;
+	max-width: 400px;
+	color: gray;
+	font-size:13px;
+}
+.goods_detail .detail .dian_title{
+	margin-bottom: 5px;
+	height: 22px;	
+}
+.goods_detail .detail .dian_title a{
+	cursor:pointer;
+	color: gray;
+}
+.goods_detail .detail .dian_title a:hover{
+	text-decoration:underline;
+	color: gray;
+}
+.goods_detail .detail .info em{
+	font-style:normal;
+}
+.content .right_wrap .right{
+	float: right;
+	text-align: right;
+	margin-top: -15px;
+}
+.content .right_wrap .right .success{
+	font-size: 18px;
+	color: #3c3c3c;
+	line-height: 32px;
+	margin: 15px 0 70px 0;
+	padding: 0 0 0 42px;
+	font-family: 'Hiragino Sans GB',SimHei,SimSun;
+	text-align: right;	
+}
+.content .right_wrap .right .success i{
+	background-position: 0 -162px;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 10px;	
+}
+.content .right_wrap .right .price_sum{
+	color: #f40;
+	font-size: 16px;
+	text-align: right;		
+}
+.content .right_wrap .right .price_sum span{
+	font-size: 20px;
+	font-family: arial;	
+}
+.content .right_wrap .right .price_sum span em{
+	margin-left: 3px;
+	font-style:normal;
+  font-size: 20px;
+	font-family: arial;
+	text-align: right;	
+}
+.content .right_wrap .right .btns a:nth-child(1){
+	margin-right: 6px;
+	padding: 0 22px 0 15px;
+	display: inline-block;
+	height: 39px;
+	line-height: 39px;
+	overflow: hidden;
+	font-family: "Hiragino Sans GB","Microsoft Yahei",SimHei,sans-serif;
+	border: 1px solid #ec6800;
+	color: #ec6800;
+	font-size: 18px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;    	
+}
+.content .right_wrap .right .btns{
+	margin-top:20px;
+}
+.content .right_wrap .right .btns a:nth-child(2){
+	padding: 0 34px;
+	background: #f40;
+	color: #fff;
+	border-color: #f40;
+	display: inline-block;
+	height: 39px;
+	line-height: 39px;
+	overflow: hidden;
+	font-family: "Hiragino Sans GB","Microsoft Yahei",SimHei,sans-serif;
+	border: 1px solid #ec6800;
+	font-size: 18px;
+	border-radius: 2px;    	
+}
+.edit{
+	background: transparent url('../detail_gouwuche/tu.png') no-repeat -9999px -9999px;	
+}

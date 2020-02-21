@@ -1,0 +1,232 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+.nav_wrap{
+	width:100%;
+	background:#f40;
+}
+.nav_wrap .nav{
+	width:1190px;
+	height:67px;
+	margin:0 auto;
+}
+.nav_wrap .nav .logo{
+	float:left;
+	margin-top:22px;
+}
+.nav_wrap .nav .logo img{
+	width:196px;
+	height:34px;
+}
+.nav_wrap .nav .search{
+	float:right;
+	margin-top:20px;
+}
+.nav_wrap .nav .search form input{
+	border:0;
+	outline:0;
+	width:241px;
+	overflow:hidden;
+	box-sizing:border-box;
+	height:27px;
+	box-shadow:1px 1px 4px #ddd inset;
+	padding-left:4px;
+	float:left;
+}
+.nav_wrap .nav .search form button{
+	border:0;
+	border-left:1px solid #dedede;
+	background:#f5f5f5;
+	color:#666;
+	vertical-align:middle;
+	text-align:center;
+	width:70px;
+	height:27px;
+	cursor:pointer;
+}
+.remove_wrap{
+	width:100%;
+	border-bottom:1px solid #dfdfdf;
+	background:#fff;
+}
+.remove_wrap .remove{
+	width:1190px;
+	height:50px;
+	margin:0 auto;
+}
+.remove_wrap .remove .remove_btn{
+	float:right;
+	height:50px;
+	width:120px;
+	cursor:pointer;
+}
+.remove_wrap .remove .remove_btn:hover{
+	background:#999;
+}
+.remove_wrap .remove .remove_btn:hover span{
+	color:#fff;
+} 
+.remove_wrap .remove .remove_btn:hover .img{
+	background:url("../myfoot/remove_btn1.png") no-repeat;
+	background-size:100% 100%;
+} 
+.remove_wrap .remove .remove_btn .img{
+	width:20px;
+	height:22px;
+	float:left;
+	margin-top:15px;
+	margin-right:3px;
+	margin-left:17px;
+	background:url("../myfoot/remove_btn.png") no-repeat;
+	background-size:100% 100%;
+}
+.remove_wrap .remove .remove_btn span{
+	line-height:50px;
+	color:#999;
+	font-size:16px;
+	font-weight:700;
+}
+.main_head{
+	width:100%;
+	background:#f7f7f7;
+}
+.main_head .line::before{
+	content:"";
+	display:block;
+}
+.main_head .line{
+	width:1086px;
+	margin:20px auto;
+	height:1px;
+}
+.items_wrap{
+	width:1056px;
+	margin:0 auto;
+	position:relative;
+}
+.items_wrap .items_line{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:16px;
+	height:100%;
+}
+.items_wrap .items{
+	width:1056px;
+	overflow:hidden;
+}
+.items_wrap .items .item_box{
+	width:195px;
+	height:335px;
+	float:left;
+	margin:0 0 25px 16px;
+}
+.items_wrap .items .item_box .goods_date{
+	height:45px;
+	line-height:45px;
+	position:relative;
+	color:#333;
+}
+.main{
+	background:#f7f7f7;
+}
+.items_wrap .items .item_box .goods_date .date_wrap{
+	position:relative;
+	z-index:3;
+}
+.items_wrap .items .item_box .goods_date .date_wrap:hover del{
+	display:block;
+}
+.items_wrap .items .item_box .goods_date .date_wrap i{
+	font-size:30px;
+	line-height:17px;
+	font-weight:700;
+	font-style:normal;
+	font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+	display:inline-block;
+	margin-right:10px;
+}
+.items_wrap .items .item_box .goods_date .date_wrap em,
+.items_wrap .items .item_box .goods_date .date_wrap span{
+	font-style:normal;
+	color:#333;
+	font-size:14px;
+}
+.items_wrap .items .item_box .goods_date .date_wrap del{
+	position:absolute;
+	top:12px;
+	width:0px;
+	height:20px;
+	background:rgba(0,0,0,.6);
+	color:#fff;
+	font-size:0px;
+	line-height:20px;
+	cursor:pointer;
+	text-align:center;
+	left:45%;
+	display:none;
+}
+.items_wrap .items .item_box .goods_date .line{
+	width:211px;
+	height:1px;
+	position:absolute;
+	top:23px;
+	background:#ccc;
+}
+.items_wrap .items .item_box .price_box .new,
+.items_wrap .items .item_box .price_box .price_new{
+	font-size:14px;
+	font-weight:700;
+	color:#f10;
+	font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+	font-style:normal;
+}
+.items_wrap .items .item_box .price_box .old{
+	display:inline-block;
+	margin-left:5px;
+}
+.items_wrap .items .item_box .bot{
+	padding:10px;
+	background:#fff;
+}
+.items_wrap .items .item_box .bot .price_box .old,
+.items_wrap .items .item_box .bot .price_box .price_old{
+	color:#b0b0b0;
+	font-weight:400;
+	text-decoration:line-through;
+	font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+	font-style:normal;
+	font-size:14px;
+}
+.items_wrap .items .item_box .bot .title{
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	margin-bottom:2px;
+	color:#999;
+}
+.items_wrap .items .item_box .img_box{
+	position:relative;
+	background:#fff;
+}
+.items_wrap .items .item_box .img_box .remove_goods{
+	background:url("../myfoot/del_black.png") no-repeat;
+	background-size:100% 100%;
+	width:44px;
+	height:44px;
+	position:absolute;
+	right:0;
+	top:0;
+	display:none;
+}
+.items_wrap .items .item_box .img_box img{
+	width:195px;
+	height:195px;
+	cursor:pointer;
+}

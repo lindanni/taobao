@@ -1,0 +1,324 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	outline:none;
+	text-decoration:none;
+	font-family: tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+}
+.header{
+	position:relative;
+	width:100%;
+	height:35px;
+	background-color:#f5f5f5;
+	border-bottom: 1px solid #eee;
+}
+.content{
+	width:1190px;
+	margin:0 auto;
+}
+.left,
+.left li{
+	float:left;
+}
+.right,
+.right li{
+	float:right;
+}
+.content::after{
+	content:'';
+	display:block;
+	clear:both;  /*只能清除块元素的浮动*/
+}
+.header .content li{
+	height:35px;
+	width:80px;
+	text-align:center;
+	line-height:35px;
+}
+.header .content ul li a{
+	font-size:12px;
+	color:#3C3C3C;
+	display:inline-block;
+}
+.header .content ul.right .list_customer li:hover{
+	background:#f5f5f5;
+} 
+.header .content ul.right .list_seller li:hover{
+	background:#f5f5f5;
+}
+.header .content ul.right .list_shouc li:hover{
+	background:#f5f5f5;
+}
+.header .content ul.right .list_mytaobao li:hover{
+	background:#f5f5f5;
+}
+.header .content ul li span.xiabiao{
+	display:inline-block;
+	vertical-align:middle;
+	width:13px;
+	height:13px;
+	background:url("../images/xiabiao.png") no-repeat;
+	background-size:90% 90%;
+	margin-left:-2px;
+}
+.header .content ul li span.gouwuche{
+	width:20px;
+	height:20px;
+	background:url("../images/gouwuche.png") no-repeat;
+	display:inline-block;
+	vertical-align:middle;
+	background-size:70% 90%;
+	margin-right:-8px;
+}
+.header .content ul li span.num{
+	color:#f22e00;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:-5px;
+}
+.header .content ul li span.xing{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	vertical-align:-20%;
+	margin-right:-7px;
+	background:url("../images/xingxing.png") no-repeat;
+	background-size:85% 85%;
+}
+.header .content ul li span.daohang{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	vertical-align:-30%;
+	background:url("../images/daohang.png") no-repeat;
+	background-size:65% 65%;
+	margin-right:-7px;
+}
+.header .content div[class^="list_"] li{
+	text-align:left;
+	font-size:12px;
+	clear:both;
+}
+.header .content .list_address ul.addre{
+	position:relative;
+	z-index:5;
+	width:250px;
+	height:270px;
+	overflow:auto;
+	background-color:#fff;
+	cursor:pointer;
+	display:none;
+	border:1px solid #eee;
+	border-top:none;
+}
+.header .content .list_address ul.addre li{
+	height:29px;
+	padding:0 0 0 8px;
+}
+.header .content .list_mytaobao{
+	position:relative;
+	z-index:5;
+	width:82px;
+	height:56px;
+	border:1px solid #eee;
+	background:#fff;
+	padding:8px 0;
+	border-top:none;
+	top:-2px;
+	display:none;
+}
+.header .content .list_mytaobao li{
+	padding:0 5px;
+	width:72px;
+	height:28px;
+}
+.header .content .list_shoucang{
+	position:relative;
+	z-index:5;
+	width:70px;
+	height:56px;
+	border:1px solid #eee;
+	border-top:none;
+	background:#fff;
+	display:none;
+	text-align:center;
+}
+.header .content .list_shoucang li{
+	width:70px;
+	height:28px;
+	text-align:center;
+}
+.header .content .list_shoucang li a{
+	text-align:center;
+	width:70px;
+	height:28px;
+	line-height:28px;
+}
+.header .content .list_seller{
+	position:relative;
+	z-index:5;
+	width:82px;
+	height:196px;
+	background:#fff;
+	border:1px solid #eee;
+	border-top:none;
+	padding:8px 0;
+	display:none;
+
+}
+.header .content .list_seller li{
+	width:72px;
+	height:28px;
+	padding:0 5px;
+}
+.header .content .list_customer{
+	position:relative;
+	z-index:5;
+	width:70px;
+	height:56px;
+	padding:8px 0;
+	background:#fff;
+	border:1px solid #eee;
+	border-top:none;
+	display:none;
+}
+.header .content .list_customer li{
+	width:60px;
+	height:28px;
+	padding:0 5px;
+}
+.header .content ul.right .listsum{
+	position:absolute;
+	z-index:5;
+	width:1188px;
+	height:320px;
+	background:#fff;
+	display:none;
+}
+.header .content ul.right div.listsum div[class^="list_n"]{
+	width:95%;
+	height:309px;
+	float:left;
+	padding:5px;
+	border-right:1px solid #eee;
+}
+.header .content ul.right div.listsum .list_wrap{
+	width:25%;
+	overflow:hidden;
+	float:left;
+}
+.header .content ul.right .listsum div[class^="list_"] .list_nav li{
+	height:25px;
+	line-height:25px;
+	float:left;
+	border-radius:2px;
+	padding-top:5px;
+	clear:none;
+}
+.header .content ul.right .listsum div[class^="list_"] .list_nav a{
+	height:25px;
+	padding:2px 8px;
+}
+.header .content ul.right .listsum div[class^="list_"] .list_nav a:hover{
+	color:#fff;
+	border-radius:2px;
+	padding:2px 8px;
+}
+.header .content ul.right .listsum .list_n1 .list_nav a:hover{
+	background:#ff5000;
+}
+.header .content ul.right .listsum .list_n2 .list_nav a:hover{
+	background:#9fb838;
+}
+.header .content ul.right .listsum .list_n3 .list_nav a:hover{
+	background:#d75696;
+}
+.header .content ul.right .listsum .list_n4 .list_nav a:hover{
+	background:#2e9fdb;
+}
+.header .content .right .listsum h4{
+	width:276px;
+	height:19px;
+	text-align:left;
+	margin:5px;
+}
+.header .content ul.right .list li{
+	float:left;
+	display:inline-block;
+}
+#bottom{
+	width: 100%;
+	height: 71px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin-top: 7px;
+
+}
+#bottom ul li a,
+#gy ul li a,
+#wl ul li a,
+#zg ul li a{
+	color:#6c6c6c;
+}
+#bottom ul{width:1200px;height:61px;float:left;line-height: 61px;margin-left: 60px;}
+#bottom ul li{
+	float:left;
+	white-space: nowrap;
+	margin-right: 18px;
+	margin-left: 9px;
+	margin-top: 10px;
+	font-size: 12px;
+	height: 15px;
+	line-height: 15px;}
+#bottom ul li a:hover{text-decoration:none;color:#f40;}
+b{
+	margin: 0 5px;
+    font-weight: 400;
+}
+.b-6{width: 72px;height: 14px;}
+
+.b-3{width: 34px;height: 14px;}
+.b-2{width: 24px;height: 14px;}
+.b-4{width: 48px;height: 14px;}
+.b-5{width: 60px;height: 14px;}
+.b-7{width: 27.84px;height: 14px;}
+.b-8{width: 26.2px;height: 14px;}
+.b-10{width: 120px;height: 14px;}
+#gy ul{float:left;margin-left: 60px;}
+#gy ul li{
+	float:left;
+	white-space: nowrap;
+	margin-right: 10px;
+	margin-left: 9px;
+	margin-top: 10px;
+	font-size: 12px;
+	height: 15px;
+	line-height: 15px;
+	color: #6c6c6c;}
+#gy ul li a:hover{text-decoration:none;color:#f40;}
+
+#wl ul{float:left;margin-left: 60px;}
+#wl ul li{
+	float:left;
+	white-space: nowrap;
+	margin-right: 20px;
+	margin-left: 9px;
+	margin-top: 10px;
+	font-size: 12px;
+	height: 15px;
+	line-height: 15px;
+	color: #6c6c6c;}
+.w a:hover{text-decoration:none;color:#f40;}
+#zg ul{margin-left: 60px;}
+#zg ul li{
+	float:left;
+	white-space: nowrap;
+	margin-right: 20px;
+	margin-left: 9px;
+	margin-top: 10px;
+	font-size: 12px;
+	height: 15px;
+	line-height: 15px;
+	color: #6c6c6c;}
+#zg ul li a:hover{text-decoration:none;color:#f40;}

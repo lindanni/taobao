@@ -1,0 +1,29 @@
+.editwrap{
+	background-color: rgba(0,0,0,0.3);
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	display:none;
+}
+.edit{
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:500px;
+	height:400px;
+	background-color:#fff;
+	transform:translate(-50%,-50%);	
+	padding:20px
+}
+.edit .text{
+	color: #333;
+}
+.edit .editcontent{
+	margin-top:20px;
+	border:1px solid black;
+}
+*{
+	list-style:none;
+}

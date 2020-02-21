@@ -1,0 +1,281 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	outline:none;
+	text-decoration: none;
+}
+.content_wrap{
+	width:990px;
+	margin:0 auto;
+}
+.content_wrap .content{
+	width:100%;
+}
+.content_wrap .content .logo{
+	margin-top:20px;
+	padding-bottom:20px;
+	border-bottom: 2px solid #f1f1f1;
+}
+.content_wrap .content .logo img{
+	width:150px;
+	height:60px;
+}
+.content_wrap .content .main .top h2{
+	line-height: 25px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;	
+}
+.content_wrap .content .main .top .nav{
+	margin-top: 15px;
+	color: #6C6C6C;	
+}
+.content_wrap .content .main .top .nav ul li{
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border-bottom: 3px solid #b2d1ff;
+	font-size: 12px;
+	vertical-align: bottom; 
+	color: #6C6C6C; 
+}
+.content_wrap .content .main .top .nav ul li:nth-child(1){
+	width: 255px;
+	margin-left: 0;	
+}
+.content_wrap .content .main .top .nav ul li:nth-child(2){
+  width: 230px;
+}
+.content_wrap .content .main .top .nav ul li:nth-child(3){
+  width: 160px;
+}
+.content_wrap .content .main .top .nav ul li:nth-child(4){
+  width: 160px;
+}
+.content_wrap .content .main .top .nav ul li:nth-child(5){
+  width: 160px;
+}
+.content_wrap .content .middle .other1{
+	padding-bottom:15px;
+}
+.content_wrap .content .middle .other1 .other_top{
+	height:38px;
+	line-height:38px;
+	font-size:12px;
+	color: #3c3c3c;
+}
+.content_wrap .content .middle .other1 .other_top a{
+	color: #3c3c3c;
+}
+.content_wrap .content .middle .other_content{
+	width:988px;
+	font-size:12px;
+	border:1px solid #ccc;
+	margin-top:20px;
+}
+.content_wrap .content .middle .other_content ul::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.content_wrap .content .middle .other_content ul li{
+	float:left;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(2){
+	min-height:119px;
+	margin-left:10px;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(2) .deatil{
+	padding-top:20px;
+	width:255px;
+	height:109px;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(2) .deatil img{
+	max-height: 80px;
+    max-width: 80px;
+    vertical-align: middle;
+    float:left;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(2) .deatil .goods_name{
+	margin: -3px 0 0 5px;
+    padding-right: 25px;
+    float:left;
+    width:140px;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(2) .deatil .goods_name .name{
+	font-size: 12px;
+    display: block;
+    height: 36px;
+    line-height:18px;
+    color: #3c3c3c;
+    overflow: hidden;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(3){
+	width:230px;
+	min-height:119px;
+	padding-top:20px;
+	text-align:center;
+}
+.content_wrap .content .middle .other_content ul li p{
+	color:#9c9c9c;
+	margin:0 5px 0 15px;
+	overflow:hidden;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(3){
+	color:#9c9c9c;;
+	min-height:119px;
+	overflow:hidden;
+}
+.content_wrap .content .middle .other_content ul li .price_wrap{
+	width:160px;
+	height:40px;
+	padding:20px 0 0 8px;
+	text-align:center;
+	line-height:20px;
+
+}
+.content_wrap .content .middle .other_content ul li .price_wrap .price{
+	width:160px;
+	height:12px;
+	padding:0 0 4px 0;
+	text-align:center;
+}
+.content_wrap .content .middle .other_content ul li .price_wrap .price em{
+	color:#3c3c3c;
+	font-family:Verdana,Tahoma,arial;
+	font-style:normal;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(5){
+	width:160px;
+	min-height:119px;
+	text-align:center;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(5) .seller_sum{
+	height:25px;
+	padding-top:20px;
+	color: #3c3c3c;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(6),
+.content_wrap .content .middle .other_content ul li:nth-child(7){
+	width:160px;
+	min-height:119px;
+	padding-top:20px;
+	text-align:center;
+}
+.content_wrap .content .middle .other_content ul li .down_goods{
+	cursor:pointer;
+}
+.content_wrap .content .middle .other_content ul li:nth-child(7) div{
+	cursor:pointer;
+}
+.goods_up h2{
+	line-height: 25px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;	
+	display:inline-block;
+	margin:10px 0;
+	margin-top:40px;
+}
+#form1 table{
+	height:350px;
+	padding-left:40px;
+	padding-top:20px;
+	border-top:1px dotted #6c6c6c;
+	border-bottom:1px dotted #6c6c6c;
+	background-color:#f4f4f4;
+	margin-bottom:30px;
+	border-collapse: collapse;
+	border:0;
+	margin:0;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+#form1 table tr:nth-child(1){
+	height:30px;
+	display:block;
+	line-height:30px;
+}
+#form1 table tr:nth-child(2){
+	height:60px;
+	display:block;
+	line-height:60px;
+}
+#form1 table tr td.title{
+	font-size:14px;
+	font-weight:700;
+	color:#6c6c6c;
+	display:inline-block;
+	padding-left:5px;
+}
+#form1 table tr td{
+	display:inline-block;
+	width:170px;
+}
+#form1 table tr td .imgurl,
+#form1 table tr td .detail_img {
+	position: relative;
+	display: inline-block;
+	background: #444;
+	border: 1px solid #99D3F5;
+	border-radius: 4px;
+	padding: 4px 12px;
+	overflow: hidden;
+	color: #fff;
+	text-decoration: none;
+	text-indent: 0;
+	line-height: 15px;
+	width:80px;
+	height:15px;
+	font-size:13px;
+}
+#form1 table tr td .imgurl input,
+#form1 table tr td .detail_img input{
+	position: absolute;
+	font-size: 100px;
+	right: 0;
+	top: 0;
+	opacity: 0;
+}
+#form1 table tr td .imgurl:hover {
+	background: #fff;
+	border-color: #78C3F3;
+	color: #004974;
+	text-decoration: none;
+}
+#form1 table tr td .detail_img:hover{
+	background: #fff;
+	border-color: #78C3F3;
+	color: #004974;
+	text-decoration: none;
+}
+#form1 table tr td img{
+	width:100px;
+	height:100px;
+	border:1px solid #fff;
+	margin-right:10px;
+}
+#form1 table tr td img:hover{
+	border:1px solid #f40;
+}
+#form1 table tr td .goods_name,
+#form1 table tr td .price_old,
+#form1 table tr td .price_new{
+	width:120px;
+	padding:1px;
+	height:25px;
+	line-height:25px;
+	border-radius:6px;
+	border:1px solid #9c9c9c;
+	background:#fff;
+}
+#form1 table tr td input{
+	border:0;
+	outline:0;
+	width:120px;
+}
+#form1 table tr td{
+	width:142px;
+}
